@@ -1,0 +1,31 @@
+#backgrounddimmer {
+  position: relative;
+  opacity: .4;
+  display: none;
+  width: 100%;
+}
+
+#modalwindow {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 50%;
+  background: red;
+  height: 300px;
+  border: 5px solid black;
+}
+
+#xtoclose {
+  float: right;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+
+body {
+  background: black;
+}
+
+button {
+  float: right;
+}
