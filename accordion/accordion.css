@@ -30,3 +30,7 @@
 .invisible {
   display: none;
 }
+
+.bar:hover {
+  opacity: .8;
+}
