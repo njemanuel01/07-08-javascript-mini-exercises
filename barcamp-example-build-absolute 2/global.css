@@ -97,7 +97,7 @@ h2 {
   max-width: 350px;
 }
 
-.hamburger_menu {
+#hamburger_menu {
   position: absolute;
   right: 74px;
   text-align: center;
