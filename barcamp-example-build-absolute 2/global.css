@@ -102,13 +102,17 @@ h2 {
   right: 74px;
   text-align: center;
   background: #2B4847;
-  width: 75%;
+  width: 200px;
   color: white;
   z-index: 999999;
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition: height 1s; /* Safari */
+     transition: height 1s;
 }
 
 .grow_hamburger_menu {
   height: 200px;
-  -webkit-transition: height 4s; /* Safari */
-     transition: height 4s;
+  -webkit-transition: height 1s; /* Safari */
+     transition: height 1s;
 }

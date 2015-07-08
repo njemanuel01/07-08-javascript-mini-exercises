@@ -7,11 +7,15 @@ function get_hamburger_menu() {
 function add_class_to_hamburger_menu() {
   var h = get_hamburger_menu();
   h.classList.add("grow_hamburger_menu");
+  h.style.height = "200px";
+  menu_added = true;
 }
 
 function remove_class_to_hamburger_menu() {
   var h = get_hamburger_menu();
   h.classList.remove("grow_hamburger_menu");
+  h.style.height = "0px";
+  menu_added = false;
 }
 
 function set_hamburger_menu() {
@@ -23,6 +27,6 @@ function set_hamburger_menu() {
 }
 
 window.onload = function() {
-  var x = document.getElementsByClass("menu");
+  var x = document.getElementsByClassName("menu");
   x[0].addEventListener("click", set_hamburger_menu); 
 }
