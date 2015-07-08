@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  border: 10px black solid;
+  width: 600px;
+  margin: auto;
+}
+
+.paragraph {
+  height: 200px;
+  width: 100%;
+  color: black;
+}
+
+.bar {
+  background: black;
+  color: white;
+  height: 50px;
+  width: 100%;
+  display: block;
+}
+
+.visible {
+  display: block;
+}
+
+.invisible {
+  display: none;
+}
