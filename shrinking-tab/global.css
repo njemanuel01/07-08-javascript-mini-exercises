@@ -27,7 +27,7 @@ nav a {
 
 header {
   position: fixed;
-  height: 50px;
+  height: 100px;
   background: #FFF none repeat scroll 0% 0%;
   margin-top: 0px;
   top: 0px;
@@ -42,4 +42,12 @@ header {
   width: 100%;
   color: white;
   height: 1500px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline-block;
 }
