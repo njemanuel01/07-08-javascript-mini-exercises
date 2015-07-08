@@ -1,0 +1,98 @@
+/* General  Styles */ 
+.clearfix {
+    overflow: auto;
+}
+
+/* Fonts */
+h1 {
+  margin: 10px 0;
+  font-family: "Rokkit", serif;
+  color: #2B4847;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 10px 0;
+  font-family: "Rokkit", serif;
+  color: #2B4847;
+}
+
+/* Header Bar */
+.barcamp--logo {
+  padding: 10px 0 10px 10px;
+  background: #2B4847;
+}
+
+.barcamp--logo__graphic {
+  width: 200px;
+}
+
+.menu {
+  float: right;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+/* Header Scene */
+.header--image {
+  position: relative;
+  height: 600px;
+  background: url('assets/mountains.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center;
+}
+
+.trees {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 600px;
+  width: 100%;
+  background: url('assets/trees.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.lake {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 600px;
+  width: 100%;
+  background: url('assets/lake.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.logo {
+  position: relative;
+  z-index: 100;
+  
+}
+
+.image--container {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.hero--logo {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.date {
+  width: 70%
+}
+
+/* AIGA Bar */
+.aiga {
+  padding: 5px 0;
+  background:#2B4847;
+  text-align: center;
+}
+
+.aiga--graphic {
+  width: 90%;
+  max-width: 350px;
+}
