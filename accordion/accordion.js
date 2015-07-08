@@ -11,7 +11,7 @@ function change_to_invisible(element) {
 
 
 function shows_this_paragraph() {
-  var bars = document.getElementsByClassName("bars");
+  var bars = document.getElementsByClassName("bar");
   for (i = 0; i < bars.length; i++ ){
     change_to_visible(bars[i]);
   }
@@ -29,6 +29,10 @@ function shows_this_paragraph() {
   
 }
 
-window.onload {
+window.onload = function() {
   document.getElementById("blog").addEventListener("click", shows_this_paragraph);
+  document.getElementById("about").addEventListener("click", shows_this_paragraph);
+  document.getElementById("services").addEventListener("click", shows_this_paragraph);
+  document.getElementById("portfolio").addEventListener("click", shows_this_paragraph);
+  document.getElementById("contact").addEventListener("click", shows_this_paragraph);
 }
