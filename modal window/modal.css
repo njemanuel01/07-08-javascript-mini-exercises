@@ -1,8 +1,11 @@
 #backgrounddimmer {
-  position: relative;
-  opacity: .4;
+  position: absolute;
+  top: 0px;
+  opacity: .8;
   display: none;
   width: 100%;
+  height: 100vh;
+  background: gray;
 }
 
 #modalwindow {
@@ -13,6 +16,7 @@
   background: red;
   height: 300px;
   border: 5px solid black;
+  opacity: 1;
 }
 
 #xtoclose {
@@ -23,7 +27,7 @@
 }
 
 body {
-  background: black;
+  background: white;
 }
 
 button {
