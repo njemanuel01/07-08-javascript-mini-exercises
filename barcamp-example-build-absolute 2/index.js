@@ -1,9 +1,16 @@
+// Declare  global variable
 var menu_added = false;
 
+// Gets hamburger menu
+//
+// Returns Element
 function get_hamburger_menu() {
   return document.getElementById("hamburger_menu");
 }
 
+function toggle_hamburger_menu() {
+  
+}
 function add_class_to_hamburger_menu() {
   var h = get_hamburger_menu();
   h.classList.add("grow_hamburger_menu");
